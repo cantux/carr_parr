@@ -68,7 +68,7 @@ def parse(category_dict):
            append_items(products, cat_soup, cat_link)
 
         # open a csv file with append, so old data will not be erased
-        with open('data_{0}_{1}.csv'.format(cat_type, datetime.datetime.now()), 'a') as csv_file:
+        with open('/home/ubuntu/data_{0}_{1}.csv'.format(cat_type, datetime.datetime.now()), 'a') as csv_file:
             writer = csv.writer(csv_file)
             for p in products:
                 writer.writerow(p.values())

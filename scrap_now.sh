@@ -1,7 +1,6 @@
-#/bin/sh
+#/bin/bash
 
 #source ~/miniconda2/etc/profile.d/conda.sh
-#conda init zsh
 #source /home/ubuntu/miniconda2/bin/activate /home/ubuntu/miniconda2/envs/py_scrap
 #conda activate /home/ubuntu/miniconda2/envs/py_scrap
 /home/ubuntu/miniconda2/condabin/conda run -p /home/ubuntu/miniconda2/envs/py_scrap python /home/ubuntu/carr_parr/main.py 
